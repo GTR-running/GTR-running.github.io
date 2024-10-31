@@ -31,16 +31,13 @@ body, html {
     }
 
     .nav h1 { /* double the size */
-        color: #282828;
         font-size: 10vw;
         margin-bottom: 0;
         margin-top: -25vh;
     }
     .nav h2 { /* double the size */
-        color: #282828;
         font-size: 4vw;
         margin-top: 0;
-        margin-top: -25vh;
     }
     .nav h3 { /* double the size */
         color: #efefef;
