@@ -33,7 +33,6 @@ body, html {
     .nav h1 { /* double the size */
         font-size: 10vw;
         margin-bottom: 0;
-        margin-top: -25vh;
     }
     .nav h2 { /* double the size */
         font-size: 4vw;
