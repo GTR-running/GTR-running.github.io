@@ -49,6 +49,11 @@ body, html {
         font-size: 3vw;
     }
 
+    .footer {
+        text-align: center;
+        font-size: 3vw;
+    }
+
 
 .nav_main {
     background-image: url(../img/back-02-portrait.jpg);
