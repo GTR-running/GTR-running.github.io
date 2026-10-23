@@ -186,3 +186,92 @@ a:active {
         width: 70%;
     }
 }
+
+
+/* Gariwerd Trail Running profiles */
+
+.gtr-profiles {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 48px 24px;
+  }
+  
+  .gtr-profiles__intro {
+    max-width: 680px;
+    margin-bottom: 32px;
+  }
+  
+  .gtr-profiles__intro h2 {
+    margin: 0 0 12px;
+  }
+  
+  .gtr-profiles__intro p {
+    margin: 0;
+    line-height: 1.7;
+  }
+  
+  /* Desktop: two cards per row */
+  .gtr-profiles__grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 32px;
+  }
+  
+  .gtr-profile {
+    display: grid;
+    grid-template-columns: minmax(0, 38%) minmax(0, 1fr);
+    align-items: start;
+    gap: 24px;
+    min-width: 0;
+  }
+  
+  .gtr-profile__photo {
+    display: block;
+    width: 100%;
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+  }
+  
+  .gtr-profile__content {
+    min-width: 0;
+  }
+  
+  .gtr-profile__content h3 {
+    margin: 0 0 6px;
+  }
+  
+  .gtr-profile__role {
+    margin: 0 0 16px;
+    opacity: 0.7;
+    font-size: 0.9em;
+  }
+  
+  .gtr-profile__content p:last-child {
+    margin-bottom: 0;
+    line-height: 1.7;
+    overflow-wrap: anywhere;
+  }
+  
+  /* Tablet: one card per row */
+  @media (max-width: 850px) {
+    .gtr-profiles__grid {
+      grid-template-columns: 1fr;
+      gap: 28px;
+    }
+  }
+  
+  /* Mobile: photo above bio */
+  @media (max-width: 520px) {
+    .gtr-profiles {
+      padding: 32px 20px;
+    }
+  
+    .gtr-profile {
+      grid-template-columns: 1fr;
+      gap: 16px;
+    }
+  
+    .gtr-profile__photo {
+      aspect-ratio: 16 / 9;
+    }
+  }
